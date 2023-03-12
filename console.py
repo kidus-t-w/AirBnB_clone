@@ -81,7 +81,7 @@ class HBNBCommand(cmd.Cmd):
         """
         Eliminates empty lines
         """
-        return True
+        pass
 
     def do_quit(self, line):
         """Handles the 'quit' command
