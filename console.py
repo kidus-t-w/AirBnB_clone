@@ -77,7 +77,7 @@ class HBNBCommand(cmd.Cmd):
             return 1
         return 0
 
-    def empty_line(self, line):
+    def emptyline(self, line):
         """
         Eliminates empty lines
         """
